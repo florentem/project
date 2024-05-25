@@ -1,106 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florentem Links</title>
+    <title>Нейросети и творчество</title>
     <style>
         body {
+            font-family: 'Inter', sans-serif;
+            background-color: #242424; /* Dark background */
+            color: #f0f0f0; /* Light text color */
             margin: 0;
             padding: 0;
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            background-image: url(https://media.giphy.com/media/O1A7W9ipgqOpq/giphy.gif);
-            background-repeat: no-repeat;
-            background-color: black;
-            background-size: cover;
-            color: white;
-            height: 100vh;
-            background-position-x: center;
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
         }
 
-        header {
-            text-align: center;
-            padding: 10px;
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-weight: 800;
+            font-size: 2.5em;
             margin-bottom: 20px;
-            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
         }
 
-        .links {
-            text-align: center;
-            margin-top: 50px;
+        h2 {
+            font-weight: 600;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 10px;
         }
 
-        .home-button {
-            background-color: #333;
-            color: white;
-            font-weight: bold;
-            padding: 10px;
-            font-size: 1em;
-            border: 2px solid #111;
-            border-radius: 5px;
-            cursor: pointer;
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            width: auto; /* Adjusted width */
+        p {
+            margin-bottom: 20px;
         }
 
-        button {
-            background-color: #333;
-            color: white;
-            font-weight: bold;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            border: 2px solid #111;
-            border-radius: 10px;
-            margin: 10px 0;
-            cursor: pointer;
-            display: block;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
+        .faq-question, .faq-answer {
+            margin-top: 20px;
+            background-color: #333; /* Dark gray background */
+            padding: 20px; /* Padding inside the question and answer blocks */
+            border-radius: 20px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
         }
 
-        @media (max-width: 600px) {
-            header {
-                font-size: 1.5em;
-            }
+        .faq-answer {
+            margin-bottom: 30px;
         }
     </style>
 </head>
-
 <body>
+<div class="container">
+    <h1>Памятка: Нейросети и их влияние на творческую деятельность</h1>
 
-    <button class="home-button">&#8962;</button>
+    <p><strong>1. Что такое нейросети и как они связаны с творчеством?</strong></p>
+    <p>Нейросети - это компьютерные системы, способные анализировать данные, обучаться на них и делать прогнозы или принимать решения. В контексте творчества, нейросети могут использоваться для создания уникальных иллюстраций, генерации текстов, дизайна, моделирования и визуализации, а также для оптимизации различных аспектов дизайна и создания инновационных решений.</p>
 
-    <header>
-        <h1>Links</h1>
-    </header>
+    <p><strong>2. Как нейросети помогают в творческом процессе?</strong></p>
+    <ul>
+        <li>Создание уникальных иллюстраций и дизайн-концепций.</li>
+        <li>Генерация текстур, паттернов и графических элементов.</li>
+        <li>Моделирование и визуализация трехмерных объектов и сцен.</li>
+        <li>Оптимизация пользовательских интерфейсов и веб-дизайна.</li>
+        <li>Автоматизация некоторых аспектов дизайна, таких как генерация прототипов и обработка изображений.</li>
+    </ul>
 
-    <div class="links">
-        <button onclick="window.location.href='https://t.me/coowersyy'">Telegram</button>
-        <button onclick="window.location.href='https://www.twitch.tv/florentem_'">Twitch</button>
-        <button onclick="copyToClipboard('нось#4004')">Discord</button>
-        <button onclick="window.location.href='https://www.donationalerts.com/r/florentemm'">Donate</button>
+    <p><strong>3. Популярные заблуждения о бесполезности ИИ в творчестве:</strong></p>
+    <ul>
+        <li><strong>Миф:</strong> Нейросети могут заменить человеческое творчество.</li>
+        <li><strong>Миф:</strong> Использование нейросетей уменьшает уникальность произведений.</li>
+        <li><strong>Миф:</strong> Нейросети создают идеальные работы автоматически.</li>
+        <li><strong>Миф:</strong> Нейросети лишают творческого процесса человеческого элемента.</li>
+        <li><strong>Миф:</strong> Использование нейросетей требует специализированных знаний и навыков.</li>
+    </ul>
+
+    <h2>FAQ</h2>
+
+    <div class="faq-question">
+        <p><strong>Вопрос 1:</strong> Как нейросети могут помочь в творческом процессе?</p>
+    </div>
+    <div class="faq-answer">
+        <p><strong>Ответ:</strong> Нейросети могут помочь в творческом процессе, предоставляя инструменты для создания уникальных иллюстраций, генерации текстов, дизайна, моделирования и визуализации, а также для оптимизации различных аспектов дизайна и создания инновационных решений.</p>
     </div>
 
-    <script>
-        function copyToClipboard(text) {
-            const tempInput = document.createElement('input');
-            tempInput.value = text;
-            document.body.appendChild(tempInput);
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
-            alert('Copied to clipboard: ' + text);
-        }
+    <div class="faq-question">
+        <p><strong>Вопрос 2:</strong> В чем отличие между использованием нейросетей и традиционными методами в творческом процессе?</p>
+    </div>
+    <div class="faq-answer">
+        <p><strong>Ответ:</strong> Нейросети могут обрабатывать и анализировать большие объемы данных, выявлять сложные закономерности и предлагать новые идеи, что может быть более эффективным и инновационным по сравнению с традиционными методами творчества.</p>
+    </div>
 
-        document.querySelector('.home-button').addEventListener('click', function () {
-            window.location.href = 'https://florentem.github.io';
-        });
-    </script>
+    <div class="faq-question">
+        <p><strong>Вопрос 3:</strong> Могут ли нейросети создавать идеальные произведения автоматически?</p>
+    </div>
+    <div class="faq-answer">
+        <p><strong>Ответ:</strong> Нейросети могут создавать качественные произведения, но для достижения успеха в творческом процессе необходимо умелое взаимодействие человека и машины, а также настройка и вмешательство человека для получения оптимальных результатов.</p>
+    </div>
+
+    <div class="faq-question">
+        <p><strong>Вопрос 4:</strong> В чем заключается роль человека при использовании нейросетей в творческом процессе?</p>
+    </div>
+    <div class="faq-answer">
+        <p><strong>Ответ:</strong> Человек играет ключевую роль в процессе использования нейросетей, предоставляя данные, управляя и настраивая алгоритмы, а также оценивая и корректируя результаты работы нейросетей для достижения желаемых творческих целей.</p>
+    </div>
+
+    <div class="faq-question">
+        <p><strong>Вопрос 5:</strong> Могут ли нейросети уменьшить уникальность произведений?</p>
+    </div>
+    <div class="faq-answer">
+        <p><strong>Ответ:</strong> Нет, наоборот, нейросети могут вдохновить на новые идеи и помочь в создании более инновационных и уникальных работ, расширяя возможности творческого процесса.</p>
+    </div>
+
+    <div class="faq-question">
+        <p><strong>Вопрос 6:</strong> Требуются ли специализированные знания для использования нейросетей в творческом процессе?</p>
+    </div>
+    <div class="faq-answer">
+        <p><strong>Ответ:</strong> Многие сервисы и инструменты на базе нейросетей предоставляют удобные интерфейсы и инструкции для использования без специализированных знаний, что делает их доступными для широкого круга пользователей.</p>
+    </div>
+</div>
 </body>
-
 </html>
